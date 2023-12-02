@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <title>Citizen Knowledge Graph</title>
+    <meta name="generator" content="Eleventy">
+    <!--Meta For No Index-->
+    <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="/assets/vendor/slick/slick.css" />
+    <link rel="stylesheet" href="/assets/vendor/slick/slick-theme.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/bootstrap.min.css" />
+    <!-- Stylesheets -->
+    <link href="/assets/css/style.css" rel="stylesheet" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/images/new_logo.png" type="image/x-icon" />
+    <link rel="icon" href="/assets/images/new_logo.png" type="image/x-icon" />
+  </head>
+
+  <body>
+  {% block navbar %}
+    <nav class="navbar navbar-expand-lg site-navigation">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="{{nav.navLogo}}" alt="nav-logo" />
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#sitenavbar"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="sitenavbar">
+          <ul class="navbar-nav ml-auto main-nav">
+            {% for navLink in nav.navLinks %}
+            <li class="nav-item">
+              {% if navLink == "de" %}
+                <a class="nav-link" href="/">{{navLink | capitalize}}</a>
+              {% else %}
+                <a class="nav-link" href="/{{navLink}}">{{navLink | capitalize}}</a>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  {% endblock %}
+
+  {% block content %}
+    {{content | safe}}
+  {% endblock %}
+
+  {% block footer %}
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row site-footer-link">
+          <p>
+            {{footer.text}} <a href="mailto:{{footer.email}}">{{footer.email}}</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  {% endblock %}
+    <!-- <script src="js/vendor.js"></script> -->
+    <script src="/assets/vendor/jQuery/jquery.min.js"></script>
+    <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
+

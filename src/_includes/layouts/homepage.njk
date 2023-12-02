@@ -1,0 +1,94 @@
+{% extends "base.njk" %}
+
+{% block content %}
+
+    <section class="site-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="site-hero-content text-center">
+              <div class="site-hero-content-banner">
+                <h1>
+                  {{hero.title.firstPara}}
+                  <br>
+                  {{hero.title.secondPara}}
+                </h1>
+                <h4>
+                  {{hero.subtitle.des}}
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="site-about-wrapper">
+              <div class="site-about-company text-center">
+                {{about.title}}
+              </div>
+              <div class="site-about-description">
+                <p>
+                  {{about.des}}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-idea">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div>
+              <h2>
+                {{idea.title}}
+              </h2>
+              <p>
+                {{idea.des}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-team">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h2>
+                {{team.title}}
+              </h2>
+              <p>
+                {{team.des}}
+              </p>
+            </div>
+          </div>
+          {% for member in team.teamMembers %}
+          <div class="col-lg-4 col-md-6">
+            <div class="site-team-member">
+              <div class="site-team-item-header">
+                <div class="thumb">
+                  <img class="site-team-member-image" src="{{member.img}}" alt="user-thumb">
+                </div>
+                <div class="person">
+                  <h5>{{member.name}}</h5>
+                  <p>{{member.dig}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  
+{% endblock %}
