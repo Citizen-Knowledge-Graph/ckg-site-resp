@@ -37,7 +37,7 @@
     <nav class="navbar navbar-expand-lg site-navigation">
       <div class="container">
         <a class="navbar-brand" href="/">
-          <img src="{{nav.navLogo}}" alt="nav-logo" />
+          <img src="{% rootPath %}{{nav.navLogo}}" alt="nav-logo" />
         </a>
         <button
           class="navbar-toggler collapsed"
@@ -55,9 +55,9 @@
             {% for navLink in nav.navLinks %}
             <li class="nav-item">
               {% if navLink == "de" %}
-                <a class="nav-link" href="/">{{navLink | capitalize}}</a>
+                <a class="nav-link" href="{% rootPath %}">{{navLink | capitalize}}</a>
               {% else %}
-                <a class="nav-link" href="/{{navLink}}">{{navLink | capitalize}}</a>
+                <a class="nav-link" href="{% rootPath %}{{navLink}}">{{navLink | capitalize}}</a>
               {% endif %}
             </li>
             {% endfor %}

@@ -4,7 +4,7 @@
     {
       "name": "Benjamin Degenhart",
       "dig": "Software Engineer @ DigitalService",
-      "img": "/assets/images/team/benjamin.jpeg",
+      "img": "assets/images/team/benjamin.jpeg",
       "social":[
         {
           "icon": "medium",
@@ -23,7 +23,7 @@
     {
       "name": "Vanessa Ureta",
       "dig": "UX & Service Designer @ ifok",
-      "img": "/assets/images/team/vanessa.jpeg",
+      "img": "assets/images/team/vanessa.jpeg",
       "social":[
         {
           "icon": "medium",
@@ -42,7 +42,7 @@
     {
       "name": "Ben Glaeser",
       "dig": "Data Engineer @ SoundCloud",
-      "img": "/assets/images/team/ben.png",
+      "img": "assets/images/team/ben.png",
       "social":[
         {
           "icon": "medium",
