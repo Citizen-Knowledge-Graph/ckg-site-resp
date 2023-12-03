@@ -405,19 +405,17 @@ textarea.form-control {
 .site-about-wrapper {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .site-about-company {
   background-color: #F7F9FF;
-  width: 40%;
-  padding: 30px 30px;
   color: #00113E;
   font-size: 30px;
 }
 @media (max-width: 991px) {
   .site-about-company {
-    width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 .site-about-company h1 {
@@ -443,6 +441,15 @@ textarea.form-control {
   color: #fff;
   font-weight: 300;
   margin-bottom: 0;
+}
+
+.site-about-company-icon img {
+  width: 300px;
+}
+@media (max-width: 991px) {
+  .site-about-company-icon img {
+    width: 200px;
+  }
 }
 
 .site-team {
