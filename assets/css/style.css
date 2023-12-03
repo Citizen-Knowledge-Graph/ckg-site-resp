@@ -228,6 +228,11 @@ textarea.form-control {
   .site-navigation .nav-item {
     text-align: center;
   }
+
+  .site-navigation .navbar-brand img {
+    max-width: 50px;
+  }
+
 }
 .site-navigation .nav-link {
   font-family: "Montserrat", sans-serif;
@@ -296,7 +301,7 @@ textarea.form-control {
 }
 @media (max-width: 991px) {
   .site-hero {
-    height: auto;
+    height: 100vh;
     padding: 200px 0;
   }
 }
