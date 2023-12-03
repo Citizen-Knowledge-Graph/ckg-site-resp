@@ -445,10 +445,12 @@ textarea.form-control {
 
 .site-about-company-icon img {
   width: 300px;
+  border-radius: 5%;
 }
 @media (max-width: 991px) {
   .site-about-company-icon img {
     width: 200px;
+    border-radius: 5%;
   }
 }
 
@@ -483,7 +485,7 @@ textarea.form-control {
 .site-team-member-image {
   width: 200px;
   height: 200px;
-  border-radius: 10%;
+  border-radius: 5%;
   overflow: hidden;
   margin-bottom: 25px;
 }
@@ -549,12 +551,12 @@ textarea.form-control {
 
 .site-footer {
   background: #fff;
-  padding: 100px 0;
+  padding: 50px;
 }
 
 .site-footer-link {
   justify-content: center;
-  padding: 15px;
+  padding: 30px;
 }
 
 .contact-form-generator {
