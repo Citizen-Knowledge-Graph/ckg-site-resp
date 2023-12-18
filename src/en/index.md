@@ -4,7 +4,7 @@ hero:
   title:
     firstPara: "Revelate"
   subtitle:
-    des: "German bureaucracy decoded."
+    des: "German bureaucracy decoded"
     
 about:
   title: "Prototype Fund"

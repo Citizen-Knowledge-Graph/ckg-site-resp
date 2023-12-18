@@ -4,7 +4,7 @@ hero:
   title:
     firstPara: "Revelate"
   subtitle:
-    des: "Die deutsche Förderlandschaft entschlüsselt."
+    des: "Die deutsche Förderlandschaft entschlüsselt"
 
 about:
   title: "Prototype Fund"
