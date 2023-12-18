@@ -17,4 +17,13 @@ team:
 idea:
     title: "Die Idee"
     des: "Der Staat macht Bürger:innen diverse Leistungsangebote. Welche Ansprüche bestehen, ist vielen Menschen nicht bewusst. Anträge werden oft gar nicht oder falsch gestellt. Leistungen gehen verloren. Revelate informiert Bürger:innen über ihre Rechte und Ansprüche und unterstützt sie dabei, Anträge ordnungsgemäß einzureichen."
+    user:
+        img: "assets/images/idea/benutzer.png"
+        des: "Die Nutzer:in legt ein einfaches Profil an"
+    chart:
+        img: "assets/images/idea/chart-netzwerk.png"
+        des: "Wir überprüfen Übereinstimmungen mit bestehenden Förderleistungen"
+    benefit:
+        img: "assets/images/idea/hand-holding-herz.png"
+        des: "Die Nutzer:in wird informiert und unterstützt, zustehende Förderungen zu beantragen"
 ---

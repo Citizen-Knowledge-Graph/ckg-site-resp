@@ -12,9 +12,18 @@ about:
 
 team:
     title: "The Team"
-    des: "All three of us are Tech4Germany alumni. Benjamin is currently working as a software developer in the 'Neues Rechtsinformationssystem' project at DigitalService. Vanessa improves digital administrative services at ifok. Ben works as a data engineer at SoundCloud. Contact: citizenknowledgegraph@googlegroups.com"
-
+    des: "The three of us are Tech4Germany alumni. Benjamin is currently working as a software developer in the 'Neues Rechtsinformationssystem' project at DigitalService. Vanessa improves digital administrative services at ifok. Ben works as a data engineer at SoundCloud. Contact: citizenknowledgegraph@googlegroups.com"
 idea:
     title: "The Idea"
-    des: "The state offers citizens various support schemes. Many people are not aware of what entitlements exist. Applications are often not submitted at all or are submitted incorrectly. Benefits are lost. Revelate informs citizens about their rights and available support schemes and assists them in submitting applications correctly."
+    des: "The state offers citizens various support schemes. Many are little know or poorly documented. As a consequence applications are often not submitted at all or are submitted incorrectly. Benefits are lost. Revelate informs citizens about their rights and available support schemes and assists them in submitting applications correctly."
+    user:
+        img: "assets/images/idea/benutzer.png"
+        des: "The user creates a simple profile"
+    chart:
+        img: "assets/images/idea/chart-netzwerk.png"
+        des: "We check for matches with existing funding schemes"
+    benefit:
+        img: "assets/images/idea/hand-holding-herz.png"
+        des: "The user is informed and supported in the application for relevant funding schemes"
+
 ---
