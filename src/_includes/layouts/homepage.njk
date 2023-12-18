@@ -1,3 +1,4 @@
+{% set currentLanguage = rootPage %}
 {% extends "base.njk" %}
 
 {% block content %}
@@ -57,6 +58,24 @@
               </p>
             </div>
           </div>
+          {% for icon in idea.ideaIcons %}
+            <div class="col-lg-4 col-md-6">
+              <div class="site-idea-item">
+                <div class="site-idea-item-header">
+                  <div class="thumb">
+                    <img class="site-idea-icon-image" src="{% rootPath %}{{icon.img}}" alt="user-thumb">
+                  </div>
+                  <div class="idea">
+                    {% if rootPath.includes("/en") %}
+                      <p>{{ icon.description }}</p>
+                    {% else %}
+                      <p>{{ icon.description_en }}</p>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
         </div>
       </div>
     </section>

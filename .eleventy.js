@@ -14,6 +14,9 @@ module.exports = function (eleventyConfig) {
     return rootPath;
   });
 
+  // Add global data to templates
+  eleventyConfig.addGlobalData("rootPath", rootPath);
+
   return {
     passthroughFileCopy: true,
     markdownTemplateEngine: "njk",
