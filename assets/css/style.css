@@ -216,12 +216,21 @@ textarea.form-control {
     padding: 15px;
   }
 }
+
 .site-navigation .navbar-brand {
   padding: 0;
   margin: 0;
 }
 .site-navigation .navbar-brand img {
   max-width: 78px;
+}
+
+.github-link {
+  padding-right: 25px;
+}
+
+.github-link img {
+  max-width: 45px;
 }
 
 @media (max-width: 991px) {
@@ -233,6 +242,9 @@ textarea.form-control {
     max-width: 50px;
   }
 
+  .github-link {
+    padding: 0;
+  }
 }
 .site-navigation .nav-link {
   font-family: "Montserrat", sans-serif;
@@ -397,6 +409,10 @@ textarea.form-control {
   .site-idea-item {
     text-align: center;
   }
+}
+
+.navbar-ul {
+  align-items: center;
 }
 
 .site-idea-item-header {

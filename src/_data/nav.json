@@ -1,4 +1,6 @@
 {
+  "githubLogo": "assets/images/github-mark.png",
+  "githubLink": "https://github.com/Citizen-Knowledge-Graph",
   "navLogo":"assets/images/new_logo.png",
   "navLinks":["de","en"]
 }
