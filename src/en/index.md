@@ -2,7 +2,8 @@
 layout: "layouts/homepage.njk"
 hero:
   title:
-    firstPara: "Revelate"
+    firstPara: "Citzen"
+    secondPara: "Knowledge Graph"
   subtitle:
     des: "German bureaucracy decoded"
     
