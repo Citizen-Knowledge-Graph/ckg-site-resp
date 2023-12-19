@@ -26,4 +26,20 @@ idea:
         img: "assets/images/idea/hand-holding-herz.png"
         des: "The user is informed and supported in the application for relevant funding schemes"
 
+    presentation:
+      img: "assets/images/idea/computer.png"
+      des: "A presentation with more details"
+      link: "https://docs.google.com/presentation/d/1aqm_341iFhwAIu370b-LYOerN3eHKuOsyEtEuDHGWAU/edit#slide=id.p"
+    article:
+      img: "assets/images/idea/dokument-unterzeichnet.png"
+      des: "An article about the idea published in Tagesspiegel"
+      link: "https://background.tagesspiegel.de/smart-city/proaktive-verwaltung-als-selfmade-loesung"      
+    video:
+      img: "assets/images/idea/film.png"
+      des: "A brief demo of an early prototype"
+      link: "https://www.youtube.com/watch?v=2poGL8CeD8U"      
+    code:
+      img: "assets/images/github-mark.png"
+      des: "Our code on Github"
+      link: "https://github.com/Citizen-Knowledge-Graph"
 ---
