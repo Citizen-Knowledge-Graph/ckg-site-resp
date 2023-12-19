@@ -245,6 +245,10 @@ textarea.form-control {
   .github-link {
     padding: 0;
   }
+
+  .github-link img {
+    padding: 0.5rem;
+  }
 }
 .site-navigation .nav-link {
   font-family: "Montserrat", sans-serif;
