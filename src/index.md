@@ -2,7 +2,7 @@
 layout: "layouts/homepage.njk"
 hero:
   title:
-    firstPara: "Citzen"
+    firstPara: "Citizen"
     secondPara: "Knowledge Graph"
   subtitle:
     des: "Die deutsche Förderlandschaft entschlüsselt"
@@ -17,7 +17,7 @@ team:
 
 idea:
     title: "Die Idee"
-    des: "Der Staat macht Bürger:innen diverse Leistungsangebote. Welche Ansprüche bestehen, ist vielen Menschen nicht bewusst. Anträge werden oft gar nicht oder falsch gestellt. Leistungen gehen verloren. Revelate informiert Bürger:innen über ihre Rechte und Ansprüche und unterstützt sie dabei, Anträge ordnungsgemäß einzureichen."
+    des: "Der Staat macht Bürger:innen diverse Leistungsangebote. Welche Ansprüche bestehen, ist vielen Menschen nicht bewusst. Anträge werden oft gar nicht oder falsch gestellt. Leistungen gehen verloren. Der Citizen Knowledge Graph informiert Bürger:innen über ihre Rechte und Ansprüche und unterstützt sie dabei, Anträge ordnungsgemäß einzureichen."
     user:
         img: "assets/images/idea/benutzer.png"
         des: "Die Nutzer:in legt ein einfaches Profil an"

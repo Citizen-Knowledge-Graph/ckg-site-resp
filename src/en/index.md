@@ -2,7 +2,7 @@
 layout: "layouts/homepage.njk"
 hero:
   title:
-    firstPara: "Citzen"
+    firstPara: "Citizen"
     secondPara: "Knowledge Graph"
   subtitle:
     des: "German bureaucracy decoded"
@@ -16,7 +16,7 @@ team:
     des: "The three of us are Tech4Germany alumni. Benjamin is currently working as a software developer in the 'Neues Rechtsinformationssystem' project at DigitalService. Vanessa improves digital administrative services at ifok. Ben works as a data engineer at SoundCloud. Contact: citizenknowledgegraph@googlegroups.com"
 idea:
     title: "The Idea"
-    des: "The state offers citizens various support schemes. Many are little know or poorly documented. As a consequence applications are often not submitted at all or are submitted incorrectly. Benefits are lost. Revelate informs citizens about their rights and available support schemes and assists them in submitting applications correctly."
+    des: "The state offers citizens various support schemes. Many are little know or poorly documented. As a consequence applications are often not submitted at all or are submitted incorrectly. Benefits are lost. Citizen Knowledge Graph informs citizens about their rights and available support schemes and assists them in submitting applications correctly."
     user:
         img: "assets/images/idea/benutzer.png"
         des: "The user creates a simple profile"
