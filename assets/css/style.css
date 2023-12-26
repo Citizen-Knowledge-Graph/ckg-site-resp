@@ -24,6 +24,7 @@ p {
 
 h1 {
   font-size: 60px;
+  color: #fd7e14;
 }
 
 h2 {
@@ -491,7 +492,7 @@ textarea.form-control {
   height: 20vh;
   display: flex;
   align-items: center;
-  background: #00113E;
+  background: #fd7e14;
 }
 @media (max-width: 575px) {
   .site-about {
@@ -553,7 +554,7 @@ textarea.form-control {
 }
 
 .site-team {
-  background: #00113E;
+  background: #fd7e14;
   padding: 100px 0;
   overflow: hidden;
   color: #fff;
@@ -561,6 +562,10 @@ textarea.form-control {
 
 .person h5 {
   color: #fff;
+}
+
+.site-team-member p {
+  color: #00113E;
 }
 
 .site-team-member {

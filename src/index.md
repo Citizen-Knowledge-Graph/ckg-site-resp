@@ -2,8 +2,7 @@
 layout: "layouts/homepage.njk"
 hero:
   title:
-    firstPara: "Citizen"
-    secondPara: "Knowledge Graph"
+    firstPara: "FörderFuchs"
   subtitle:
     des: "Die deutsche Förderlandschaft entschlüsselt"
 
