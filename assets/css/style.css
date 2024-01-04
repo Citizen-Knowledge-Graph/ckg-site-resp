@@ -14,7 +14,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  color: #00113E;
+  color: #D64A24;
 }
 
 p {
@@ -24,7 +24,7 @@ p {
 
 h1 {
   font-size: 60px;
-  color: #fd7e14;
+  color: #384361;
 }
 
 h2 {
@@ -492,7 +492,7 @@ textarea.form-control {
   height: 20vh;
   display: flex;
   align-items: center;
-  background: #fd7e14;
+  background: #384361;
 }
 @media (max-width: 575px) {
   .site-about {
@@ -554,7 +554,7 @@ textarea.form-control {
 }
 
 .site-team {
-  background: #fd7e14;
+  background: #384361;
   padding: 100px 0;
   overflow: hidden;
   color: #fff;
@@ -565,7 +565,7 @@ textarea.form-control {
 }
 
 .site-team-member p {
-  color: #00113E;
+  color: white;
 }
 
 .site-team-member {
