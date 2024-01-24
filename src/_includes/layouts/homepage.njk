@@ -179,6 +179,11 @@
                 <div class="person">
                   <h5>{{member.name}}</h5>
                   <p>{{member.dig}}</p>
+                  <p>
+                    <a href="{{member.social[1].link}}">
+                      <img class="linkedin-logo-small" src="{% rootPath %}{{nav.linkedinLogo}}" alt="linkedin-logo" />
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -187,5 +192,5 @@
         </div>
       </div>
     </section>
-  
+
 {% endblock %}
