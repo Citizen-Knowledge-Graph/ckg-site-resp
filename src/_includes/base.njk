@@ -54,7 +54,12 @@
           <ul class="navbar-ul navbar-nav ml-auto main-nav">
             <li class="nav-item">
               <a class="github-link" href="{{nav.githubLink}}">
-                <img src="{% rootPath %}{{nav.githubLogo}}" alt="nav-logo" />
+                <img src="{% rootPath %}{{nav.githubLogo}}" alt="nav-github-logo" />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="github-link" href="{{nav.linkedinLink}}">
+                <img src="{% rootPath %}{{nav.linkedinLogo}}" alt="nav-linkedin-logo" />
               </a>
             </li>
             {% for navLink in nav.navLinks %}
