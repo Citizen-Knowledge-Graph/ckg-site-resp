@@ -5,12 +5,12 @@ module.exports = function (eleventyConfig) {
   let rootPath = "/";
 
   // If environment is production, change the path
-  if(process.env.ELEVENTY_ENV === "production") {
+  if (process.env.ELEVENTY_ENV === "production") {
     rootPath = "/";
   }
 
   // Pass the stylesheet path to your templates
-  eleventyConfig.addShortcode("rootPath", function() {
+  eleventyConfig.addShortcode("rootPath", function () {
     return rootPath;
   });
 
