@@ -6,7 +6,7 @@ module.exports = function (eleventyConfig) {
 
   // If environment is production, change the path
   if(process.env.ELEVENTY_ENV === "production") {
-    rootPath = "/ckg-site-resp/";
+    rootPath = "/";
   }
 
   // Pass the stylesheet path to your templates
