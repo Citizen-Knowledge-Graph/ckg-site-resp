@@ -2,7 +2,7 @@
 layout: "layouts/homepage.njk"
 hero:
   title:
-    firstPara: "FörderFuchs"
+    firstPara: "FörderFox"
   subtitle:
     des: "German bureaucracy decoded"
     
