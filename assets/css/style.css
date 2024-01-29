@@ -596,3 +596,17 @@ body {
 .linkedin-logo-small {
   width: 25px;
 }
+
+.linkedin-logo-footer {
+  width: 42px;
+}
+
+.footer-divider {
+  margin: 0 10px;
+  font-size: x-large;
+  color: lightgray;
+}
+
+.footer-mailto {
+  margin-top: 6px;
+}

@@ -79,7 +79,11 @@
       <div class="container">
         <div class="row site-footer-link">
           <p>
-            {{footer.text}} <a href="mailto:{{footer.email}}">{{footer.email}}</a>
+            <a href="{{nav.linkedinLink}}" target="_blank">
+              <img class="linkedin-logo-footer" src="{% rootPath %}{{nav.linkedinLogo}}" alt="linkedin-logo" />
+            </a>
+            <div class="footer-divider">|</div>
+            <a class="footer-mailto" href="mailto:{{footer.email}}">{{footer.email}}</a>
           </p>
         </div>
       </div>
