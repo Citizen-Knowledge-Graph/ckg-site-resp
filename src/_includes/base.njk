@@ -55,12 +55,6 @@
 
         <div class="collapse navbar-collapse" id="sitenavbar">
           <ul class="navbar-ul navbar-nav ml-auto main-nav">
-            <li class="nav-item">
-              <a class="github-link" href="{{nav.githubLink}}" target="_blank">
-                <img src="{% rootPath %}{{nav.githubLogo}}" alt="nav-github-logo" />
-              </a>
-            </li>
-
             {% for navLink in nav.navLinks %}
               <li class="nav-item">
                 {% if navLink == "de" %}
