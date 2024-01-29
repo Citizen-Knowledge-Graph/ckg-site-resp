@@ -33,7 +33,7 @@ idea:
       link: "https://docs.google.com/presentation/d/1aqm_341iFhwAIu370b-LYOerN3eHKuOsyEtEuDHGWAU/edit#slide=id.p"
     article:
       img: "assets/images/idea/dokument-unterzeichnet.png"
-      des: "Ein Artikel über die Idee im Tagesspiegel"  
+      des: "Ein Artikel über die Idee im Tagesspiegel Background"  
       link: "https://background.tagesspiegel.de/smart-city/proaktive-verwaltung-als-selfmade-loesung"
     video:
       img: "assets/images/idea/film.png"
