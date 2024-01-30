@@ -6,6 +6,11 @@ VERSION:	1.0.0
 -------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Montserrat:300,400,500,600,700&display=swap");
 
+:root {
+  --box-gradient: linear-gradient(to top right, #236695, #8DACCB);
+  --on-white-color: #384361;
+}
+
 body {
   font-size: 16px;
   color: #9D9EA5;
@@ -31,7 +36,7 @@ p {
 
 h1 {
   font-size: 80px;
-  color: #384361;
+  color: var(--on-white-color);
 }
 
 h2 {
@@ -44,7 +49,7 @@ h3 {
 
 h4 {
   font-size: 25px;
-  color: #384361;
+  color: var(--on-white-color);
 }
 
 h5 {
@@ -225,18 +230,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: linear-gradient(rgba(250, 250, 250, 0.4), rgba(250, 250, 250, 0.4)), url('../images/landscape_background.png');
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 991px) {
   .site-hero {
     height: 100vh;
     padding: 200px 0;
+    background-size: 100%;
   }
 }
 
 @media (max-width: 575px) {
   .site-hero {
     padding: 150px 0;
+    background-size: 100%;
   }
 }
 
@@ -411,8 +422,7 @@ body {
   min-height: 20vh;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(to top right, #362B29, #384361);
-
+  background-image: var(--box-gradient);
 }
 
 @media (max-width: 575px) {
@@ -482,7 +492,7 @@ body {
 }
 
 .site-team {
-  background-image: linear-gradient(to top right, #362B29, #384361);
+  background-image: var(--box-gradient);
   padding: 100px 0;
   overflow: hidden;
   color: #fff;

@@ -3,6 +3,9 @@
   "linkedinLink": "https://www.linkedin.com/company/foerderfox",
   "githubLogo": "assets/images/github-mark.png",
   "githubLink": "https://github.com/Citizen-Knowledge-Graph",
-  "navLogo":"assets/images/fox_logo_v3.png",
-  "navLinks":["de","en"]
+  "navLogo": "assets/images/ff_lightblue_hq.jpg",
+  "navLinks": [
+    "de",
+    "en"
+  ]
 }
