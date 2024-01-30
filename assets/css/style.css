@@ -224,14 +224,14 @@ body {
 
 .site-hero {
   position: relative;
-  height: 80vh;
+  height: 84vh;
   background-size: cover;
   background-position: center center;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(rgba(250, 250, 250, 0.4), rgba(250, 250, 250, 0.4)), url('../images/landscape_background.png');
-  background-size: 70%;
+  background-size: 65%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -417,9 +417,9 @@ body {
 }
 
 .site-about {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  min-height: 20vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 15vh;
   display: flex;
   align-items: center;
   background-image: var(--box-gradient);
