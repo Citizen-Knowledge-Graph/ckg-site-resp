@@ -7,7 +7,7 @@ VERSION:	1.0.0
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Montserrat:300,400,500,600,700&display=swap");
 
 :root {
-  --box-gradient: linear-gradient(to top right, #1b2c3f, #3c628c);
+  --box-gradient: linear-gradient(to top right, #2da5b3, #3fecff);
   --on-white-color: #384361;
 }
 
@@ -95,7 +95,7 @@ body {
 
 .site-navigation {
   /* padding: 20px 0; */
-  background: #1b2c3f;
+  background: #3fecff;
   position: fixed;
   top: 0;
   width: 100%;
