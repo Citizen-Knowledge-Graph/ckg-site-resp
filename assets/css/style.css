@@ -95,7 +95,7 @@ body {
 
 .site-navigation {
   /* padding: 20px 0; */
-  background: #fff;
+  background: #1b2c3f;
   position: fixed;
   top: 0;
   width: 100%;
@@ -155,7 +155,7 @@ body {
 }
 
 .site-navigation .nav-link {
-  color: #00113E;
+  color: #fff;
   transition: all 0.3s ease;
   position: relative;
 }
