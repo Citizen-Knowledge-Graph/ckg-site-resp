@@ -7,7 +7,7 @@ VERSION:	1.0.0
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Montserrat:300,400,500,600,700&display=swap");
 
 :root {
-  --box-gradient: linear-gradient(to top right, #236695, #8DACCB);
+  --box-gradient: linear-gradient(to top right, #1b2c3f, #3c628c);
   --on-white-color: #384361;
 }
 
@@ -25,7 +25,7 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
-  color: #362B29;
+  color: #1b2c3f;
 }
 
 p {
@@ -94,7 +94,7 @@ body {
 }
 
 .site-navigation {
-  padding: 20px 0;
+  /* padding: 20px 0; */
   background: #fff;
   position: fixed;
   top: 0;
@@ -125,7 +125,7 @@ body {
 }
 
 .site-navigation .navbar-brand img {
-  max-width: 50px;
+  max-width: 300px;
 }
 
 .github-link {
@@ -142,7 +142,7 @@ body {
   }
 
   .site-navigation .navbar-brand img {
-    max-width: 50px;
+    max-width: 200px;
   }
 
   .github-link {
@@ -221,21 +221,20 @@ body {
 
 .site-hero {
   position: relative;
-  height: 84vh;
+  height: 60vh;
   background-size: cover;
   background-position: center center;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(rgba(250, 250, 250, 0.5), rgba(250, 250, 250, 0.5)), url('../images/landscape_background.png');
-  background-size: 65%;
+  background-image: linear-gradient(rgba(250, 250, 250, 1), rgba(250, 250, 250, 0.5)), url('../images/thor-alvis-sgrCLKYdw5g-unsplash.jpg');
   background-position: center;
   background-repeat: no-repeat;
 }
 
 @media (max-width: 991px) {
   .site-hero {
-    height: 100vh;
+    height: 60vh;
     padding: 200px 0;
     background-size: 100%;
   }
@@ -259,7 +258,7 @@ body {
 }
 
 .site-hero-content-banner {
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
 }
 
 .site-hero-content-buttons li {
