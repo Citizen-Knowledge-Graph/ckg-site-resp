@@ -1,8 +1,13 @@
 # CKG Responsive Site
 
-This is a responsive site for CKG.
+## Setup
 
-## Licensing
+```sh
+npm install
+```
 
-This Repository is built on top of the [Roxo Eleventy Template](https://github.com/StaticMania/roxo-eleventy) 
-and licensed under the [MIT](#) License
+## Run
+
+```sh
+npx eleventy --serve # --> localhost:8080
+```
